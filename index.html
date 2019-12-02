@@ -13,21 +13,23 @@
   
   <body>
     <script src = "jquery-3.4.1.js"></script>
-   <h1>This is Part 2 Test</h1>
-  	
-  <script> 
-      currentNum = 0 ;
-  </script>
+    <h1>This is Part 2 Test</h1>
+    
+    <script type="text/javascript">questionIndex();</script>
 
+    <div id ="index_area">
+    </div>
 
-  <form id="myform">
-  	<input type="text" id = "question" value = 0>
-    <input type="button" onclick="myFunction()" value="value">
-  </form>
+    <form id="myform">
+      <input type="button" onclick="showQuestions()" value="Go">
+    </form>
+    
 
-  <div id = "question_area" class = "container">
+    
+
+    <div id = "question_area" class = "container" sytle="height:500px:border:1px solid #ccc; overflow:auto;">
 		question area
-	</div>
+    </div>
 
   </body>
 
